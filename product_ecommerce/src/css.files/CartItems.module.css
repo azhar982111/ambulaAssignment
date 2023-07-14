@@ -1,0 +1,102 @@
+.container{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+/* .container>div{
+    border: 1px solid black;
+} */
+
+.container>:nth-child(1){
+    width: 30%;
+    height: 15rem;
+}
+
+.container>:nth-child(2){
+    width: 70%;
+    padding-top: 2rem;
+}
+
+.container>:nth-child(1)>img{
+    width: 80%;
+    height: 70%;
+    margin-top: 12%;
+    margin-left: 4rem;
+}
+
+.container>:nth-child(1)>img:hover{
+    width: 83%;
+    height: 75%;
+    /* background-color: blue; */
+}
+
+.container>:nth-child(2)>:nth-child(1){
+    /* color: rgb(237, 12, 12); */
+    /* border: 1px solid black; */
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container>:nth-child(2)>:nth-child(2){
+    /* border: 1px solid black; */
+    margin-top: 1rem;
+    color: rgb(237, 12, 12);
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container>:nth-child(2)>:nth-child(3){
+    color: rgb(7, 113, 243);
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* DELETE BUTTON */
+.container>:nth-child(2)>:nth-child(5){
+    /* color: rgb(7, 113, 243); */
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    background-color: red;
+    height: 1.5rem;
+    width: 10rem;
+    border-radius: 1rem;
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container>:nth-child(2)>:nth-child(5):hover{
+    transform: scale(1.1)
+}
+
+.buttons{
+    margin-top: 1rem;
+}
+
+.buttons>:nth-child(1){
+    background-color: rgb(236, 230, 181);
+    width: 4rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    margin-left: -0.5rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.buttons>:nth-child(2){
+    background-color: rgb(234, 180, 237);
+    cursor: pointer;
+    width: 4rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

@@ -1,0 +1,81 @@
+.container {
+    /* The image used */
+    background-image: url('https://images.unsplash.com/photo-1622737133809-d95047b9e673?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2FsbHBhcGVyJTIwNGt8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .container>:nth-child(3){
+    background-color: blanchedalmond;
+} */
+
+.container>:nth-child(1){
+    color: white;
+    font-family:sans-serif;
+    padding-top: 10rem;
+
+}
+
+.container>:nth-child(2){
+    color: rgb(255, 176, 6);
+    font-family:sans-serif;
+    font-size: 7rem;
+    margin-top: 1.5rem;
+    /* padding-top: 10rem; */
+}
+
+.container>:nth-child(3){
+    width: 200px;
+    height: 40px;
+    position: relative;
+    background: red;
+    margin-left: 40rem;
+    color: white;
+    font-family: cursive;
+    padding-top: 0.5rem;
+    font-size: larger;
+    margin-top: 1.5rem;
+  }
+  .container>:nth-child(3):after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  .container>:nth-child(3):before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid red;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+
+  .container>:nth-child(4){
+    color: rgb(243, 196, 126);
+    font-size: 2rem;
+    margin-top: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+    
+
+  .container>:nth-child(5){
+    color: rgb(218, 240, 52);
+    font-size: 2rem;
+    margin-top: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }

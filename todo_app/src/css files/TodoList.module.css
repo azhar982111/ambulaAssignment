@@ -1,0 +1,162 @@
+.container{
+    display: flex;
+    gap: 2rem;
+}
+
+.leftDiv{
+    width: 60rem;
+    /* border: 1px solid red; */
+    height: auto;
+    padding-top: 2rem;
+}
+
+.rightDiv{
+    width: 30rem;
+    /* border: 1px solid rgb(80, 244, 20); */
+}
+
+.topDiv{
+    /* border: 1px solid rgb(80, 244, 20); */
+    height: 4.5rem;
+    display: flex;
+    padding-left: 12rem;
+}
+
+.topDiv>:nth-child(1)>input{
+    width: 20rem;
+    height: 1.5rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    padding-left: 2rem;
+}
+
+.topDiv>:nth-child(2)>button{
+    width: 10rem;
+    background-color: rgb(47, 47, 240);
+    border: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+    height: 3.5rem;
+    margin-left: 1rem;
+    color: white;
+    border-radius: 2rem;
+    
+    /* margin-top: 1rem; */
+}
+
+.topDiv>:nth-child(2)>button:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.todoDiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    /* grid-row-gap: -50px; */
+    /* border: 1px solid rgb(72, 20, 244); */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    height: auto;
+    padding: 2rem;
+    
+}
+
+.todoDiv>div{
+    /* border: 1px solid rgb(80, 244, 20); */
+    box-shadow: rgba(137, 55, 55, 0.35) 0px 5px 15px;
+    border-radius: 3rem;
+    height: 11rem;
+    background-color: rgb(245, 245, 245);
+    padding-top: 1rem;
+    transition: transform .5s; /* Animation */
+}
+
+.todoDiv>div>:nth-child(1),
+.todoDiv>div>:nth-child(2){
+    display: flex;
+    justify-content: left;
+    padding-left: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* .todoDiv>div>:nth-child(1){
+    border: 1px solid black;
+} */
+
+.todoDiv>div>:nth-child(1)>:nth-child(1),
+.todoDiv>div>:nth-child(2)>:nth-child(1){
+    color: blue;
+}
+
+/* .todoDiv>div>:nth-child(1)>:nth-child(2){
+    margin-left: 1rem;
+} */
+
+.todoDiv>div>:nth-child(2)>:nth-child(2){
+    margin-left: 1rem;
+    color: rgb(215, 72, 53);
+}
+
+.todoDiv>div:hover{
+    height: 11rem;
+    transform: scale(1.1);
+    background-color: rgb(202, 216, 235);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.todoDivButtons{
+    display: flex;
+    gap: 1.5rem;
+    /* border: 1px solid rgb(80, 244, 20); */
+    justify-content: center;
+}
+
+.todoDivButtons>button{
+    border-radius: 2rem;
+    height: 2.5rem;
+    width: 7rem;
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.todoDivButtons>:nth-child(1){
+    background-color: rgb(77, 251, 83);
+    /* color: white; */
+    cursor: pointer;
+    
+}
+
+.todoDivButtons>:nth-child(2){
+    background-color: rgb(241, 72, 45);
+    /* color: white; */
+    cursor: pointer;
+}
+
+.todoDivButtons>:nth-child(1):hover,
+.todoDivButtons>:nth-child(2):hover{
+    box-shadow: rgb(253, 253, 253) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.rightDiv{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: fixed;
+    margin-left: 62rem;
+    margin-top: 5rem;
+    box-shadow: rgba(37, 244, 5, 0.35) 0px 5px 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.rightDiv>div>:nth-child(1),
+.rightDiv>div>:nth-child(2),
+.rightDiv>div>:nth-child(3)
+{
+    display: flex;
+    padding-left: 3rem;
+}

@@ -1,0 +1,43 @@
+.container {
+    /* border: 1px solid black; */
+    height: 33rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    padding: 2rem;
+    text-align: left;
+    padding-left: 9rem;
+    margin-left: 28rem;
+    margin-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.container>input {
+    width: 15rem;
+    margin-top: -1.6rem;
+    height: 1.2rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    
+}
+
+.container>label {
+    font-size: 1.8rem;
+    font-family: monospace;
+    color: rgb(61, 61, 143);
+    font-weight: 800;
+}
+
+.container>button {
+    width: 17.2rem;
+    height: 2.5rem;
+    background-color: brown;
+    color: blanchedalmond;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.container>button:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
